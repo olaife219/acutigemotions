@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} | Services {% endblock %}
+{% block content %}
+
+<!-- Sub banner start -->
+
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Services</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li class="active">Services</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub Banner end -->
+
+<!-- Services start -->
+<div class="services content-area">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title text-center">
+            <h1>Our <span>Services</span></h1>
+            <p>Explore our wide range of innovative services designed to make your transition to electric vehicles seamless and sustainable. From sales to keeping your vehicle maintained, we're here to power your journey.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-info">
+                    <div class="number">1</div>
+                    <div class="icon">
+                        <i class="flaticon-car"></i>
+                        <i class="flaticon-deal"></i>
+                    </div>
+                    <div class="detail">
+                        <h3>Electric Vehicle Sales</h3>
+                        <p>We provide a diverse range of electric vehicles tailored to meet your needs, whether you're looking for an efficient city car, a spacious family vehicle, or a luxury ride. Our expert team is here to help you find the perfect vehicle to suit your lifestyle and budget.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-info">
+                    <div class="number">2</div>
+                    <div class="icon">
+                        <i class="flaticon-fuel"></i>
+                    </div>
+                    <div class="detail">
+                        <h3>EV charging Solutions</h3>
+                        <p>Our EV Charging Solutions provide a range of options to ensure that your electric vehicle is always ready to go. Whether you're charging at home, harnessing the power of the sun, PHCN, Generator or finding a public station, we’ve got you covered.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-info">
+                    <div class="number">3</div>
+                    <div class="icon">
+                        <i class="flaticon-motor"></i>
+                    </div>
+                    <div class="detail">
+                        <h3>EV Upgrading</h3>
+                        <p>Upgrade your electric vehicle with our innovative solutions that enhance performance, extend battery life, and integrate the latest technologies. Our team of skilled technicians specializes in retrofitting vehicles to ensure they remain at the forefront of electric vehicle innovation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-info">
+                    <div class="number">4</div>
+                    <div class="icon">
+                        <i class="flaticon-support-2"></i>
+                    </div>
+                    <div class="detail">
+                        <h3>Support</h3>
+                        <p>Our dedicated support team is available to assist you with any questions or concerns regarding your electric vehicle. Whether you need technical support, maintenance advice, or general inquiries, we're here to provide prompt and professional assistance to ensure your driving experience is smooth and enjoyable.</p>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-info">
+                    <div class="number">5</div>
+                    <div class="icon">
+                    <img src="{% static 'img/car-battery.png' %}" alt="">
+                    </div>
+                    <div class="detail">
+                        <h3>Battery Services</h3>
+                        <p>We offer comprehensive battery services, including diagnostics, replacements, and recycling. Our team ensures that your EV battery operates efficiently, maximizing your vehicle's performance and lifespan while contributing to sustainable practices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-info">
+                    <div class="number">6</div>
+                    <div class="icon">
+                        <i class="flaticon-wheel"></i>
+                    </div>
+                    <div class="detail">
+                        <h3>Maintenance & Servicing</h3>
+                        <p>Regular maintenance is crucial for your electric vehicle's longevity and performance. Our certified technicians provide thorough inspections, routine servicing, and repairs to keep your vehicle in top condition, ensuring a safe and reliable driving experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-info">
+                    <div class="number">7</div>
+                    <div class="icon">
+                        <i class="flaticon-manual-transmission"></i>
+                    </div>
+                    <div class="detail">
+                        <h3>Energy Trading Services</h3>
+                        <p>Our Energy Trading Services offer a revolutionary way for electric vehicle (EV) users to share and trade energy between their vehicles, creating a dynamic and collaborative energy ecosystem.</p>
+                        <p>Our platform enables users to monitor, trade, and allocate battery energy based on need, location, and availability, optimizing energy distribution across the network of EV users.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-info">
+                    <div class="number">8</div>
+                    <div class="icon">
+                        <i class="flaticon-money"></i>
+                    </div>
+                    <div class="detail">
+                        <h3>Financing & Leasing Options</h3>
+                        <p>We provide flexible financing and leasing options tailored to your financial needs, making it easier for you to own or lease an electric vehicle.</p>
+                        <p>Drive electric with ease through flexible financing and leasing plans.
+                            We offer financing solutions that make electric vehicles more accessible. Pay in installments or lease a vehicle through one of our flexible plans.</p>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service-info">
+                    <div class="number">9</div>
+                    <div class="icon">
+                        <i class="flaticon-shield"></i>
+                    </div>
+                    <div class="detail">
+                        <h3>Software and Connectivity Solutions</h3>
+                        <p>Stay connected and informed with our cutting-edge software solutions designed for electric vehicles. Our services include vehicle tracking, remote diagnostics, and over-the-air updates, ensuring you always have access to the latest features and improvements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services end -->
+
+
+
+<!-- Service center strat -->
+<!-- <div class="service-center content-area-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="inside-car service-car">
+                    <iframe src="https://www.youtube.com/embed/VA1DH4EiReY" allowfullscreen=""></iframe>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="about-text">
+                    <h3>Our Services <span>Video</span></h3>
+                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could</p>
+                    <p class="mb-0">morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see himself transformed in his bed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- Service center end -->
+
+{% endblock %}
