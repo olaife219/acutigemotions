@@ -15,6 +15,7 @@ import dj_database_url
 
 from environ import Env
 env = Env()
+Env.read_env()
 ENVIRONMENT = env('ENVIRONMENT', default="production")
 ENVIRONMENT = "production"
 
