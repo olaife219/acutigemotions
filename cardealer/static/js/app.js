@@ -108,19 +108,19 @@ $(function () {
                     $('.sticky-header').addClass('header-shrink');
                 }
                 if($('.do-sticky').length < 1) {
-                    $('.company-logo img').attr('src', '../static/img/logos/cardealerLogo.png');
+                    $('.company-logo img').attr('src', 'https://acutig-aws-bucket.s3.amazonaws.com/static/img/logos/cardealerLogo.png');
                 }
             }
             else {
                 $('.sticky-header').removeClass('header-shrink');
                 if($('.do-sticky').length < 1 && $('.fixed-header').length == 0 && $('.fixed-header2').length == 0) {
-                    $('.company-logo img').attr('src', '../static/img/logos/cardealerLogo-White.png');
+                    $('.company-logo img').attr('src', 'https://acutig-aws-bucket.s3.amazonaws.com/static/img/logos/cardealerLogo-White.png');
                 } else {
-                    $('.company-logo img').attr('src', '../static/img/logos/cardealerLogo.png');
+                    $('.company-logo img').attr('src', 'https://acutig-aws-bucket.s3.amazonaws.com/static/img/logos/cardealerLogo.png');
                 }
             }
         } else {
-            $('.company-logo img').attr('src', '../static/img/logos/cardealerLogo.png');
+            $('.company-logo img').attr('src', 'https://acutig-aws-bucket.s3.amazonaws.com/static/img/logos/cardealerLogo.png');
         }
     }
 
