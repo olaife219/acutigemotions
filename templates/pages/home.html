@@ -7,15 +7,15 @@
 {% load static %}
 <!-- Banner start -->
 
-<div class="banner" id="banner" style="width: 100vh; height: 100vh;">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 100%; height: 100%;">
-        <div class="carousel-inner banner-slider-inner text-center" style="width: 100%; height: 100%;">
-            <div class="carousel-item banner-max-height active item-bg" style="width: 100%; height: 100%;">
-                <img class="d-block" src="{% static 'img/car-6.jpg' %}" alt="banner" style="min-width: 100vw; min-height: 100vh; object-fit: cover;">
+<div class="banner" id="banner">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner banner-slider-inner text-center">
+            <div class="carousel-item banner-max-height active item-bg">
+                <img class="d-block w-100 h-100" src="{% static 'img/car-6.jpg' %}" alt="banner">
                 <div class="carousel-content container banner-info-2 bi-2 text-left">
                 
                     <h3>No Fuel? No Problem!</h3>
-                    <h5>With rising fuel costs impacting everyday budgets,<br>
+                    <h5 style="color: #DCE3E6;">With rising fuel costs impacting everyday budgets,<br>
                         electric cars offer a smarter alternative.<br>
                         Enjoy the freedom of driving without worrying about fuel prices.<br>
                         Power up with clean, cost-effective electricity and experience<br>
@@ -23,17 +23,17 @@
                     <a href="{% url 'services' %}" class="btn btn-lg btn-theme">Read More</a>
                 </div>
             </div>
-            <div class="carousel-item banner-max-height item-bg" style="width: 100%; height: 100%;">
-                <img class="d-block" src="{% static 'img/car-7.jpg' %}" alt="banner" style="min-width: 100vw; min-height: 100vh; object-fit: cover;">
+            <div class="carousel-item banner-max-height item-bg">
+                <img class="d-block w-100 h-100" src="{% static 'img/car-7.jpg' %}" alt="banner">
                 <div class="carousel-content container banner-info-2 bi-2 text-left">
                     <h3>Drive the Future</h3>
-                    <h5 style="color: #DCE3E6;">Explore the latest in electric vehicle innovation,<br>
+                    <h5>Explore the latest in electric vehicle innovation,<br>
                         combining sustainability with performance for a cleaner future.</h5>
                     <a href="{% url 'services' %}" class="btn btn-lg btn-theme">Read More</a>
                 </div>
             </div>
-            <div class="carousel-item banner-max-height item-bg" style="width: 100%; height: 100%;">
-                <img class="d-block" src="{% static 'img/carslider2.jpg' %}" alt="banner" style="min-width: 100vw; min-height: 100vh; object-fit: cover;">
+            <div class="carousel-item banner-max-height item-bg">
+                <img class="d-block w-100 h-100" src="{% static 'img/carslider2.jpg' %}" alt="banner">
                 <div class="carousel-content container banner-info-2 bi-2 text-left">
                     <h3>Car for Everyone</h3>
                     <h5>Allow us to guide you through the innovative stress<br>
